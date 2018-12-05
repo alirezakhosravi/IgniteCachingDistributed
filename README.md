@@ -2,7 +2,7 @@
 Using Apache Ignite as distributed cache infrastructure in .net Core
 
 ## Simple configuration
-``
+```
 services.AddDistributedIgniteCache(option =>
 {
     option.Endpoints = new string[]
@@ -14,11 +14,11 @@ services.AddDistributedIgniteCache(option =>
         };
     option.PersistenceEnabled = true;
 });
-``
+```
 
 ## Advance Configuration
 for config ignite, see https://apacheignite-net.readme.io/docs/
-``
+```
 IgniteConfiguration customeConfiguration = new IgniteConfiguration
   {
       DiscoverySpi = new TcpDiscoverySpi
@@ -71,4 +71,4 @@ IgniteConfiguration customeConfiguration = new IgniteConfiguration
       option.Configuration = customeConfiguration;
       option.SetActive = true;
   });
-  ``
+  ```
