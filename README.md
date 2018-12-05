@@ -17,7 +17,7 @@ services.AddDistributedIgniteCache(option =>
 ```
 
 ## Advance Configuration
-for config ignite, see https://apacheignite-net.readme.io/docs/
+for advanced configuration, see https://apacheignite-net.readme.io/docs/
 ```
 IgniteConfiguration customeConfiguration = new IgniteConfiguration
   {
