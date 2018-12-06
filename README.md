@@ -72,3 +72,5 @@ IgniteConfiguration customConfiguration = new IgniteConfiguration
       option.SetActive = true;
   });
   ```
+
+https://www.nuget.org/packages/IgniteCachingDistricuted/
