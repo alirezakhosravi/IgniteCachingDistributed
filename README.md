@@ -19,7 +19,7 @@ services.AddDistributedIgniteCache(option =>
 ## Advanced Configuration
 for advance configuration, see https://apacheignite-net.readme.io/docs/
 ```
-IgniteConfiguration customeConfiguration = new IgniteConfiguration
+IgniteConfiguration customConfiguration = new IgniteConfiguration
   {
       DiscoverySpi = new TcpDiscoverySpi
       {
@@ -68,7 +68,7 @@ IgniteConfiguration customeConfiguration = new IgniteConfiguration
   };
   services.AddDistributedIgniteCache(option => 
   { 
-      option.Configuration = customeConfiguration;
+      option.Configuration = customConfiguration;
       option.SetActive = true;
   });
   ```
