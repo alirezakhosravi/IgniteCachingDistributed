@@ -1,6 +1,8 @@
 # IgniteCachingDistributed
 Using Apache Ignite as distributed cache infrastructure in .net Core
 
+https://www.nuget.org/packages/IgniteCachingDistricuted/
+
 ## Simple configuration
 ```
 services.AddDistributedIgniteCache(option =>
@@ -19,7 +21,7 @@ services.AddDistributedIgniteCache(option =>
 ## Advanced Configuration
 for advance configuration, see https://apacheignite-net.readme.io/docs/
 ```
-IgniteConfiguration customeConfiguration = new IgniteConfiguration
+IgniteConfiguration customConfiguration = new IgniteConfiguration
   {
       DiscoverySpi = new TcpDiscoverySpi
       {
@@ -68,7 +70,7 @@ IgniteConfiguration customeConfiguration = new IgniteConfiguration
   };
   services.AddDistributedIgniteCache(option => 
   { 
-      option.Configuration = customeConfiguration;
+      option.Configuration = customConfiguration;
       option.SetActive = true;
   });
   ```
