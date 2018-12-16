@@ -1,7 +1,7 @@
 # IgniteCachingDistributed
 Using Apache Ignite as distributed cache infrastructure in .net Core
 
-https://www.nuget.org/packages/IgniteCachingDistricuted/
+https://www.nuget.org/packages/Raveshmand.Cache.Ignite/
 
 ## Simple configuration
 ```
