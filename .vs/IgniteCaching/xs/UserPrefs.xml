@@ -1,14 +1,6 @@
 ﻿<Properties StartupConfiguration="{BA5E4DDC-9866-433E-B197-7870413D3C89}|Default">
   <MonoDevelop.Ide.ItemProperties.IgniteCachingTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IgniteCachingDistributed/Extensions.cs">
-    <Files>
-      <File FileName="IgniteCachingDistributed/IgniteDistributedCache.cs" Line="23" Column="37" />
-      <File FileName="IgniteCachingDistributed/IgniteCustomDistributedCache.cs" Line="25" Column="45" />
-      <File FileName="IgniteCachingDistributed/IgniteCustomConfig.cs" Line="3" Column="30" />
-      <File FileName="IgniteCachingDistributed/IgniteConfig.cs" Line="1" Column="1" />
-      <File FileName="IgniteCachingDistributed/Extensions.cs" Line="17" Column="32" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

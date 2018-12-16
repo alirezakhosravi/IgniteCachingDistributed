@@ -5,7 +5,7 @@ using Apache.Ignite.Core.Configuration;
 using Apache.Ignite.Core.Discovery.Tcp;
 using Apache.Ignite.Core.Discovery.Tcp.Static;
 using Apache.Ignite.Core.Events;
-using IgniteCachingDistributed;
+using Raveshmand.Cache.Ignite;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
